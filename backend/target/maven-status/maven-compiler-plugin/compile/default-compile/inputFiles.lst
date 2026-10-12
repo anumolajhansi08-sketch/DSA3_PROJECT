@@ -1,0 +1,13 @@
+D:\DSA3\Plagiarism\backend\src\main\java\com\plagiarism\demo\algorithm\AhoCorasick.java
+D:\DSA3\Plagiarism\backend\src\main\java\com\plagiarism\demo\algorithm\EditDistance.java
+D:\DSA3\Plagiarism\backend\src\main\java\com\plagiarism\demo\algorithm\KMPAlgorithm.java
+D:\DSA3\Plagiarism\backend\src\main\java\com\plagiarism\demo\algorithm\RabinKarpAlgorithm.java
+D:\DSA3\Plagiarism\backend\src\main\java\com\plagiarism\demo\algorithm\RandomizedHashing.java
+D:\DSA3\Plagiarism\backend\src\main\java\com\plagiarism\demo\algorithm\SequenceAlignment.java
+D:\DSA3\Plagiarism\backend\src\main\java\com\plagiarism\demo\algorithm\SuffixArray.java
+D:\DSA3\Plagiarism\backend\src\main\java\com\plagiarism\demo\controller\PlagiarismController.java
+D:\DSA3\Plagiarism\backend\src\main\java\com\plagiarism\demo\model\PlagiarismRequest.java
+D:\DSA3\Plagiarism\backend\src\main\java\com\plagiarism\demo\model\PlagiarismResponse.java
+D:\DSA3\Plagiarism\backend\src\main\java\com\plagiarism\demo\PlagiarismdemoApplication.java
+D:\DSA3\Plagiarism\backend\src\main\java\com\plagiarism\demo\service\PlagiarismService.java
+D:\DSA3\Plagiarism\backend\src\main\java\com\plagiarism\demo\service\TextProcessor.java

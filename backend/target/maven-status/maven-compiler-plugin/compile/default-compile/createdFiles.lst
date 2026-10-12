@@ -1,0 +1,14 @@
+com\plagiarism\demo\controller\PlagiarismController.class
+com\plagiarism\demo\algorithm\AhoCorasick$Node.class
+com\plagiarism\demo\algorithm\RabinKarpAlgorithm.class
+com\plagiarism\demo\service\PlagiarismService.class
+com\plagiarism\demo\algorithm\EditDistance.class
+com\plagiarism\demo\model\PlagiarismResponse.class
+com\plagiarism\demo\algorithm\RandomizedHashing.class
+com\plagiarism\demo\service\TextProcessor.class
+com\plagiarism\demo\algorithm\SequenceAlignment.class
+com\plagiarism\demo\algorithm\KMPAlgorithm.class
+com\plagiarism\demo\model\PlagiarismRequest.class
+com\plagiarism\demo\PlagiarismdemoApplication.class
+com\plagiarism\demo\algorithm\AhoCorasick.class
+com\plagiarism\demo\algorithm\SuffixArray.class
