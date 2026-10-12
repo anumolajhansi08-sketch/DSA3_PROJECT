@@ -1,0 +1,853 @@
+/* =========================
+   GLOBAL
+========================= */
+
+body {
+    font-family:
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    background: #f5f7fb;
+
+    color: #172033;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+    height: 76px;
+
+    background: white;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0 7%;
+
+    border-bottom: 1px solid #e5e7eb;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 100;
+}
+
+
+.logo {
+    font-size: 27px;
+
+    font-weight: 800;
+
+    color: #4f46e5;
+}
+
+
+.nav-links {
+    display: flex;
+
+    gap: 35px;
+}
+
+
+.nav-links a {
+    color: #475569;
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+
+.nav-links a:hover {
+    color: #4f46e5;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    min-height: 510px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 70px 20px;
+
+    background:
+        radial-gradient(
+            circle at 10% 20%,
+            #e0e7ff,
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 90% 80%,
+            #dbeafe,
+            transparent 35%
+        ),
+        #f8faff;
+}
+
+
+.hero-content {
+    max-width: 900px;
+}
+
+
+.badge {
+    display: inline-block;
+
+    padding: 8px 17px;
+
+    border-radius: 30px;
+
+    background: #eef2ff;
+
+    color: #4338ca;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    margin-bottom: 22px;
+}
+
+
+.hero h1 {
+    margin: 0;
+
+    font-size: 60px;
+
+    line-height: 1.1;
+
+    letter-spacing: -2px;
+
+    color: #111827;
+}
+
+
+.hero p {
+    max-width: 700px;
+
+    margin: 25px auto 35px;
+
+    font-size: 19px;
+
+    line-height: 1.7;
+
+    color: #64748b;
+}
+
+
+.start-button {
+    display: inline-block;
+
+    padding: 15px 32px;
+
+    border-radius: 9px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #4f46e5,
+            #6366f1
+        );
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    text-decoration: none;
+
+    box-shadow:
+        0 8px 20px
+        rgba(79, 70, 229, 0.25);
+
+    transition: 0.3s;
+}
+
+
+.start-button:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 12px 25px
+        rgba(79, 70, 229, 0.35);
+}
+
+
+/* =========================
+   CHECKER
+========================= */
+
+.checker {
+    padding: 85px 7%;
+
+    background: #f5f7fb;
+}
+
+
+.section-heading {
+    text-align: center;
+
+    margin-bottom: 45px;
+}
+
+
+.section-heading h2 {
+    font-size: 38px;
+
+    margin: 0 0 10px;
+
+    color: #111827;
+}
+
+
+.section-heading p {
+    font-size: 17px;
+
+    color: #64748b;
+
+    margin: 0;
+}
+
+
+/* =========================
+   DOCUMENTS
+========================= */
+
+.documents {
+    max-width: 1450px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 30px;
+}
+
+
+.document-box {
+    background: white;
+
+    padding: 28px;
+
+    border-radius: 16px;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 8px 30px
+        rgba(15, 23, 42, 0.06);
+}
+
+
+.box-header {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 15px;
+}
+
+
+.box-header h3 {
+    margin: 0;
+
+    font-size: 19px;
+
+    color: #1e293b;
+}
+
+
+.box-header span {
+    color: #64748b;
+
+    font-size: 13px;
+}
+
+
+textarea {
+    width: 100%;
+
+    min-height: 300px;
+
+    resize: vertical;
+
+    padding: 18px;
+
+    border: 1px solid #d6dbe5;
+
+    border-radius: 10px;
+
+    background: #fafbff;
+
+    font-family: inherit;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+    color: #1f2937;
+
+    outline: none;
+}
+
+
+textarea:focus {
+    border-color: #6366f1;
+
+    background: white;
+
+    box-shadow:
+        0 0 0 4px
+        rgba(99, 102, 241, 0.1);
+}
+
+
+textarea::placeholder {
+    color: #9ca3af;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.button-area {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    margin-top: 35px;
+}
+
+
+.check-button,
+.clear-button {
+    padding: 14px 32px;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.check-button {
+    border: none;
+
+    background:
+        linear-gradient(
+            135deg,
+            #4f46e5,
+            #6366f1
+        );
+
+    color: white;
+
+    box-shadow:
+        0 7px 18px
+        rgba(79, 70, 229, 0.25);
+}
+
+
+.check-button:hover {
+    transform: translateY(-2px);
+}
+
+
+.check-button:disabled {
+    opacity: 0.6;
+
+    cursor: not-allowed;
+}
+
+
+.clear-button {
+    border: 1px solid #d1d5db;
+
+    background: white;
+
+    color: #475569;
+}
+
+
+.clear-button:hover {
+    background: #f8fafc;
+}
+
+
+/* =========================
+   ERROR
+========================= */
+
+.error-message {
+    max-width: 800px;
+
+    margin: 25px auto 0;
+
+    padding: 14px 18px;
+
+    background: #fef2f2;
+
+    border: 1px solid #fecaca;
+
+    border-radius: 8px;
+
+    color: #b91c1c;
+
+    text-align: center;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   RESULT
+========================= */
+
+.result-card {
+    max-width: 1100px;
+
+    margin: 60px auto 0;
+
+    padding: 45px;
+
+    background: white;
+
+    border-radius: 18px;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 12px 40px
+        rgba(15, 23, 42, 0.08);
+
+    text-align: center;
+}
+
+
+.result-card h2 {
+    margin: 0;
+
+    font-size: 30px;
+
+    color: #111827;
+}
+
+
+.result-subtitle {
+    color: #64748b;
+
+    font-size: 15px;
+}
+
+
+/* =========================
+   SCORE
+========================= */
+
+.score-circle {
+    width: 190px;
+
+    height: 190px;
+
+    margin: 35px auto 20px;
+
+    border-radius: 50%;
+
+    border: 13px solid #6366f1;
+
+    background: #f8faff;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    box-shadow:
+        0 10px 30px
+        rgba(79, 70, 229, 0.12);
+}
+
+
+.score-circle strong {
+    display: block;
+
+    font-size: 40px;
+
+    color: #4338ca;
+}
+
+
+.score-circle span {
+    display: block;
+
+    margin-top: 4px;
+
+    color: #64748b;
+
+    font-size: 13px;
+}
+
+
+.status {
+    display: inline-block;
+
+    padding: 8px 18px;
+
+    border-radius: 20px;
+
+    background: #eef2ff;
+
+    color: #4338ca;
+
+    font-size: 14px;
+
+    font-weight: 700;
+}
+
+
+/* =========================
+   STATISTICS
+========================= */
+
+.statistics {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 18px;
+
+    margin-top: 40px;
+}
+
+
+.stat-box {
+    padding: 25px;
+
+    background: #f8fafc;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 12px;
+}
+
+
+.stat-box strong {
+    display: block;
+
+    font-size: 30px;
+
+    color: #312e81;
+}
+
+
+.stat-box span {
+    color: #64748b;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   ALGORITHMS
+========================= */
+
+.algorithm-results {
+    margin-top: 45px;
+
+    padding-top: 35px;
+
+    border-top: 1px solid #e5e7eb;
+}
+
+
+.algorithm-results h3 {
+    font-size: 22px;
+
+    color: #1e293b;
+}
+
+
+.algorithm-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 18px;
+
+    margin-top: 20px;
+}
+
+
+.algorithm-card {
+    padding: 22px;
+
+    background: #f8fafc;
+
+    border-radius: 12px;
+
+    border: 1px solid #e5e7eb;
+}
+
+
+.algorithm-card h4 {
+    margin: 0 0 12px;
+
+    color: #4f46e5;
+
+    font-size: 17px;
+}
+
+
+.algorithm-card strong {
+    display: block;
+
+    font-size: 28px;
+
+    color: #111827;
+}
+
+
+.algorithm-card span {
+    color: #64748b;
+
+    font-size: 13px;
+}
+
+
+/* =========================
+   MATCHES
+========================= */
+
+.matches {
+    margin-top: 40px;
+
+    text-align: left;
+}
+
+
+.matches h3 {
+    font-size: 20px;
+
+    color: #1e293b;
+
+    margin-bottom: 15px;
+}
+
+
+.tags {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+}
+
+
+.tags span {
+    padding: 8px 13px;
+
+    border-radius: 20px;
+
+    background: #eef2ff;
+
+    color: #4338ca;
+
+    border: 1px solid #c7d2fe;
+
+    font-size: 13px;
+
+    font-weight: 600;
+}
+
+
+.phrase {
+    padding: 14px 17px;
+
+    margin-bottom: 10px;
+
+    background: #fff7ed;
+
+    border-left: 4px solid #f97316;
+
+    border-radius: 5px;
+
+    color: #7c2d12;
+
+    font-size: 14px;
+}
+
+
+.no-match {
+    color: #64748b;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   ABOUT
+========================= */
+
+.about {
+    padding: 80px 12%;
+
+    background: white;
+
+    text-align: center;
+
+    border-top: 1px solid #e5e7eb;
+}
+
+
+.about h2 {
+    font-size: 35px;
+
+    margin-bottom: 20px;
+
+    color: #111827;
+}
+
+
+.about p {
+    max-width: 850px;
+
+    margin: auto;
+
+    color: #64748b;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    padding: 25px;
+
+    background: #111827;
+
+    color: white;
+
+    text-align: center;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+
+    .documents {
+        grid-template-columns: 1fr;
+    }
+
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+
+    .algorithm-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .navbar {
+        padding: 0 5%;
+    }
+
+
+    .nav-links {
+        gap: 12px;
+    }
+
+
+    .nav-links a {
+        font-size: 12px;
+    }
+
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+
+    .hero p {
+        font-size: 16px;
+    }
+
+
+    .checker {
+        padding: 60px 5%;
+    }
+
+
+    .section-heading h2 {
+        font-size: 30px;
+    }
+
+
+    .statistics {
+        grid-template-columns: 1fr;
+    }
+
+
+    .result-card {
+        padding: 25px;
+    }
+
+
+    .button-area {
+        flex-direction: column;
+    }
+
+}
